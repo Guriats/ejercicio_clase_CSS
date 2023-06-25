@@ -102,7 +102,7 @@
                 color: rgb(128, 0, 0);
             }
 
-        /* AÑADIR FOCUS A LOS ENLACES */
+        /* AÑADIR FOCUS A LOS ENLACES*/ 
 
         section a:focus{
             border: 2px solid;
