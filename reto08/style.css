@@ -46,7 +46,7 @@
                 color: rebeccapurple;
             }
 
-          /*  nav a:visited{
+          /*  nav a:visited{   revisar
                 color: green;
             }   */
 
@@ -105,7 +105,8 @@
         /* AÑADIR FOCUS A LOS ENLACES */
 
         section a:focus{
-            color: rebeccapurple;
+            border: 2px solid;
+            padding: 2px;
         }
 
         footer {
