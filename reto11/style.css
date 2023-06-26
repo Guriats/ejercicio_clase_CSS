@@ -1,0 +1,12 @@
+*{
+font-family: 'Open Sans', sans-serif;
+}
+
+@font-face {
+    font-family: "TextoHs";
+    src: url("recursos/fuentes/Bergdool-w1EmZ.ttf");
+  }
+
+  h1{
+    font-family:"TextoHs", sans-serif;
+  }
