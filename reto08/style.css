@@ -102,7 +102,7 @@
                 color: rgb(128, 0, 0);
             }
 
-        /* AÑADIR FOCUS A LOS ENLACES*/ 
+        /* AÑADIR FOCUS A LOS ENLACES  MIRAR PORQUE ME FUNCIONA EN TODOS LOS A Y DEBERIA SER SOLO EN SECTION*/ 
 
         section a:focus{
             border: 2px solid;
