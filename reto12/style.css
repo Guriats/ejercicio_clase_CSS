@@ -1,5 +1,5 @@
 :root {
-  --gris: rgb(126, 126, 126);
+  --gris: rgb(226, 225, 225);
   --naranja: rgb(255, 165, 0);
   --azul: rgb(2, 93, 221);
   font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
@@ -13,7 +13,8 @@
 
 header {
   background-color: var(--naranja);
-  padding: 50px;
+  padding: 100px;
+  margin-bottom: -70px;
 }
 
 .container > img {
@@ -96,13 +97,15 @@ background-color: var(--azul);
 }
 
 main {
-  background-color: var(gris);
+  background-color: var(--gris);
+  padding-bottom: 40px;
+  margin-top: 10px;
 }
 
 footer {
     background-color: var(--azul);
     padding: 40px;
-
+    padding-top: 70px;
   }
   .container p{
     color: black;
