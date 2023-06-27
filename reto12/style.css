@@ -1,39 +1,111 @@
-:root  {
-    --gris: rgb(126, 126, 126);
-    --naranja: rgb(255, 165, 0);
-   --azul: rgb(2, 93, 221);
-   font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
-}
-   
-*{
-    margin: 0;
-    padding: 0;
-    color: rgb(2, 93, 221);
+:root {
+  --gris: rgb(126, 126, 126);
+  --naranja: rgb(255, 165, 0);
+  --azul: rgb(2, 93, 221);
+  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
 }
 
-header{
+* {
+  margin: 0;
+  padding: 0;
+  color: rgb(2, 93, 221);
+}
+
+header {
+  background-color: var(--naranja);
+  padding: 50px;
+}
+
+.container > img {
+  height: 50px;
+  width: auto;
+  display: block;
+  margin: 10px auto;
+  padding-top: 0;
+  margin-top: -40px;
+}
+
+ul li a{
+    color: white;
+}
+
+.container{
+    margin-bottom: 0;
+}
+
+.container > ul > li{
+background-color: var(--azul);
+}
+
+.container > ul > li + li{
     background-color: var(--naranja);
-    padding: 60px;
+    }
+
+
+.container > ul > li{
+    display: inline;
+    width: 200px;
   
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+.container > ul{
+    text-align: center;
 }
 
-.container > img{
-    height: 70px;
+#about h2 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#about img{
+    height:240px;
     width: auto;
+    margin: auto;
     display: block;
-    margin: 10px auto;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
+#about p{
+    text-align: center;
+    padding-bottom: 20px;
 
-section{
-    height: 20px;
-    width: auto;
 }
 
-main{
-    background-color: var(gris);
+#skills h2{
+    text-align: center;
+    padding-bottom: 50px;
+}
+#skills > ul >li{
+    display: inline;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: var(--naranja);
+    border-radius: 13px;
+    text-align: center;
 }
 
-footer{
-    background-color: var(azul);
+#skills ul{
+    text-align: center;
+    margin-bottom: 30px;
 }
+
+main {
+  background-color: var(gris);
+}
+
+footer {
+    background-color: var(--azul);
+    padding: 40px;
+
+  }
+  .container p{
+    color: black;
+    margin-bottom: 0;
+    margin-left: 0;
+  }
