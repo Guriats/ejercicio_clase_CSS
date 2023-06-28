@@ -1,0 +1,27 @@
+:root{
+    --negro: rgb(36, 36, 36);
+    --blanco: rgb(231, 229, 229);
+    font-family: "roboto", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--negro);
+    color: var(--blanco);
+}
+
+header{
+    height: 100vh;
+    background-image: url(./assets/images/banner.png);
+    background-size: cover;
+    background-position: center;
+}
+
+nav img{
+    height: 30px;
+}
