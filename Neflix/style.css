@@ -15,6 +15,27 @@ body{
     color: var(--blanco);
 }
 
+a {
+    color: var(--blanco);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .active {
+    text-decoration: underline;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+  button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+  }
+
 header{
     height: 100vh;
     background-image: url(./assets/images/banner.png);
@@ -24,4 +45,8 @@ header{
 
 nav img{
     height: 30px;
+}
+
+nav ul{
+
 }
